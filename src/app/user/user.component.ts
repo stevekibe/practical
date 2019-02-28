@@ -20,7 +20,7 @@ export class UserComponent implements OnInit {
   detailPublisher: any;
 
   forwardDetail(){
-    this.detail= new Detail(this.detailStr,this.detailAuthor,this.detailPublisher)
+    this.detail= new this.detail(this.detailStr,this.detailAuthor,this.detailPublisher)
     this.submitDetail.emit(this.detail)
     this.detailStr=''
     this.detailAuthor=''
