@@ -20,8 +20,14 @@
 }
 
 .left-banner-content h1 {
-	font-size: 64px;
-	font-weight: 300;
+	font-size: 80px;
+	font-weight: 400;
+	color: #fff;
+	line-height: 80px;
+}
+.left-banner-content p {
+    font-size: 45px;
+	font-weight: 250;
 	color: #fff;
 	line-height: 70px;
 }
@@ -105,4 +111,7 @@
 
 .right-banner-content .social-icons li a:hover {
 	background-color: #d59b2b;
+}
+.row{
+    height: 600px;
 }

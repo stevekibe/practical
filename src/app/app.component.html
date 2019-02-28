@@ -5,9 +5,12 @@
                 <div class="left-banner-content">
                     <div class="text-content">
                         <h1>Job Hub</h1>
-                        <p><button class="btn btn-success"><a href="https://github.com/stevekibe/awwards">Admin User</a></button>
-                    
-                            <button class="btn btn-success"><a href="https://spicyawwards.herokuapp.com">Job Seeker</a></button></p>
+                        <div class="line-dec"></div>
+                        <p>Login as Admin</p>
+                        <button class="btn btn-success"><a routerLink="/admin" routerLinkActive="active">Admin User</a></button>
+                        <hr>
+                        <p>Login as Job seeker</p>
+                        <button class="btn btn-success"><a routerLink="/user" routerLinkActive="active">Job Seeker</a></button>
                     </div>
                 </div>
             </div>
@@ -22,3 +25,4 @@
         </div>
     </div>
 </section>
+<router-outlet></router-outlet>
